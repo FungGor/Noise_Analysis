@@ -9,12 +9,12 @@ time = np.arange(-10*np.pi, 10*np.pi, 0.01)
 amplitude = np.sin(time)
 amplitude = 16*amplitude
 
-R1 = 6800
-R2 = 680
-R4 = 1000
-R5 = 4700
+R1 = 20000
+R2 = 1000
+R4 = 10000
+R5 = 95000
 
-Rshunt = 0.005
+Rshunt = 0.01
 
 Input_Voltage = amplitude*Rshunt
 
